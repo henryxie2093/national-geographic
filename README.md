@@ -1,5 +1,5 @@
 # national-geographic
-![](des.png)
+![](des.jpg)
 
 ## description
 daily national geographic picture
