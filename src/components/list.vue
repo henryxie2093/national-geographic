@@ -22,7 +22,7 @@ export default {
         }
     },
     created() {
-        this.getList(this.pageNo)
+        this.getList(1)
     },
     methods: {
         async getList(pageNo) {
@@ -34,7 +34,7 @@ export default {
                 console.log(error)
             }
         },
-        loadmore(){
+        loadmore() {
             this.pageNo = this.pageNo + 1
             this.getList(this.pageNo)
         }
@@ -42,7 +42,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="less" scoped>
 ul {
     list-style: none;
     display: flex;
@@ -72,7 +72,8 @@ ul li a img {
 ul li a p {
     width: 200px;
 }
-.loadmore{
+
+.loadmore {
     margin: 0 auto 50px;
     cursor: pointer;
     background: #000;

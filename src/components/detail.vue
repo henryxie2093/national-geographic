@@ -1,7 +1,7 @@
 <template>
     <div class="detail">
         <ul>
-            <li v-for='pic in piclist'>
+            <li v-for='pic in piclist' :key="pic.thumb">
                 <img :src="pic.thumb" alt="">
                 <p>
                     <span>{{pic.title}}</span><br>
