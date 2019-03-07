@@ -40,8 +40,8 @@ export default {
 
 <style lang="less" scoped>
 .detail {
-  background-color: #3e3e3e;
-  color: #fff;
+  // color: #fff;
+  padding: 10vh 0;
 }
 ul {
   list-style: none;
